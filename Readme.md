@@ -1,9 +1,9 @@
 # :pencil2: Leetcode Solutions with Python
-Update time:  2017-02-09 23:27:11
+Update time:  2017-02-13 09:38:10
 
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode) [Usage](https://github.com/bonfy/leetcode/blob/master/README_leetcode_generate.md)
 
-I have solved **42   /   477** problems
+I have solved **44   /   478** problems
 while there are **85** problems still locked.
 
 If you have any question, please give me an [issue](https://github.com/bonfy/leetcode/issues).
@@ -156,11 +156,11 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |140|[word-break-ii](https://leetcode.com/problems/word-break-ii)||[:memo:](https://leetcode.com/articles/word-break-ii/)|Hard|
 |141|[linked-list-cycle](https://leetcode.com/problems/linked-list-cycle)|[Python](https://github.com/bonfy/leetcode/blob/master/141-linked-list-cycle/linked-list-cycle.py)|[:memo:](https://leetcode.com/articles/linked-list-cycle/)|Easy|
 |142|[linked-list-cycle-ii](https://leetcode.com/problems/linked-list-cycle-ii)|||Medium|
-|143|[reorder-list](https://leetcode.com/problems/reorder-list)|||Medium|
+|143|[reorder-list](https://leetcode.com/problems/reorder-list)|[Python](https://github.com/bonfy/leetcode/blob/master/143-reorder-list/reorder-list.py)||Medium|
 |144|[binary-tree-preorder-traversal](https://leetcode.com/problems/binary-tree-preorder-traversal)|||Medium|
 |145|[binary-tree-postorder-traversal](https://leetcode.com/problems/binary-tree-postorder-traversal)|||Hard|
 |146|[lru-cache](https://leetcode.com/problems/lru-cache)|||Hard|
-|147|[insertion-sort-list](https://leetcode.com/problems/insertion-sort-list)|||Medium|
+|147|[insertion-sort-list](https://leetcode.com/problems/insertion-sort-list)|[Python](https://github.com/bonfy/leetcode/blob/master/147-insertion-sort-list/insertion-sort-list.py)||Medium|
 |148|[sort-list](https://leetcode.com/problems/sort-list)|[Python](https://github.com/bonfy/leetcode/blob/master/148-sort-list/sort-list.py)||Medium|
 |149|[max-points-on-a-line](https://leetcode.com/problems/max-points-on-a-line)|||Hard|
 |150|[evaluate-reverse-polish-notation](https://leetcode.com/problems/evaluate-reverse-polish-notation)|||Medium|
@@ -487,3 +487,4 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |505|[the-maze-ii](https://leetcode.com/problems/the-maze-ii)|:lock:||Medium|
 |506|[relative-ranks](https://leetcode.com/problems/relative-ranks)|||Easy|
 |508|[most-frequent-subtree-sum](https://leetcode.com/problems/most-frequent-subtree-sum)|||Medium|
+|516|[longest-palindromic-subsequence](https://leetcode.com/problems/longest-palindromic-subsequence)|||Medium|
