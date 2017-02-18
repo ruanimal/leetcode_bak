@@ -1,9 +1,9 @@
 # :pencil2: Leetcode Solutions with Python
-Update time:  2017-02-13 09:38:10
+Update time:  2017-02-18 22:45:57
 
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode) [Usage](https://github.com/bonfy/leetcode/blob/master/README_leetcode_generate.md)
 
-I have solved **44   /   478** problems
+I have solved **48   /   482** problems
 while there are **85** problems still locked.
 
 If you have any question, please give me an [issue](https://github.com/bonfy/leetcode/issues).
@@ -99,13 +99,13 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |83|[remove-duplicates-from-sorted-list](https://leetcode.com/problems/remove-duplicates-from-sorted-list)|[Python](https://github.com/bonfy/leetcode/blob/master/083-remove-duplicates-from-sorted-list/remove-duplicates-from-sorted-list.py)|[:memo:](https://leetcode.com/articles/remove-duplicates-sorted-list/)|Easy|
 |84|[largest-rectangle-in-histogram](https://leetcode.com/problems/largest-rectangle-in-histogram)||[:memo:](https://leetcode.com/articles/largest-rectangle-histogram/)|Hard|
 |85|[maximal-rectangle](https://leetcode.com/problems/maximal-rectangle)|||Hard|
-|86|[partition-list](https://leetcode.com/problems/partition-list)|||Medium|
+|86|[partition-list](https://leetcode.com/problems/partition-list)|[Python](https://github.com/bonfy/leetcode/blob/master/086-partition-list/partition-list.py)||Medium|
 |87|[scramble-string](https://leetcode.com/problems/scramble-string)|||Hard|
 |88|[merge-sorted-array](https://leetcode.com/problems/merge-sorted-array)|||Easy|
 |89|[gray-code](https://leetcode.com/problems/gray-code)|||Medium|
 |90|[subsets-ii](https://leetcode.com/problems/subsets-ii)|||Medium|
 |91|[decode-ways](https://leetcode.com/problems/decode-ways)|||Medium|
-|92|[reverse-linked-list-ii](https://leetcode.com/problems/reverse-linked-list-ii)|||Medium|
+|92|[reverse-linked-list-ii](https://leetcode.com/problems/reverse-linked-list-ii)|[Python](https://github.com/bonfy/leetcode/blob/master/092-reverse-linked-list-ii/reverse-linked-list-ii.py)||Medium|
 |93|[restore-ip-addresses](https://leetcode.com/problems/restore-ip-addresses)|||Medium|
 |94|[binary-tree-inorder-traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)|||Medium|
 |95|[unique-binary-search-trees-ii](https://leetcode.com/problems/unique-binary-search-trees-ii)|||Medium|
@@ -155,7 +155,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |139|[word-break](https://leetcode.com/problems/word-break)||[:memo:](https://leetcode.com/articles/word-break/)|Medium|
 |140|[word-break-ii](https://leetcode.com/problems/word-break-ii)||[:memo:](https://leetcode.com/articles/word-break-ii/)|Hard|
 |141|[linked-list-cycle](https://leetcode.com/problems/linked-list-cycle)|[Python](https://github.com/bonfy/leetcode/blob/master/141-linked-list-cycle/linked-list-cycle.py)|[:memo:](https://leetcode.com/articles/linked-list-cycle/)|Easy|
-|142|[linked-list-cycle-ii](https://leetcode.com/problems/linked-list-cycle-ii)|||Medium|
+|142|[linked-list-cycle-ii](https://leetcode.com/problems/linked-list-cycle-ii)|[Python](https://github.com/bonfy/leetcode/blob/master/142-linked-list-cycle-ii/linked-list-cycle-ii.py)||Medium|
 |143|[reorder-list](https://leetcode.com/problems/reorder-list)|[Python](https://github.com/bonfy/leetcode/blob/master/143-reorder-list/reorder-list.py)||Medium|
 |144|[binary-tree-preorder-traversal](https://leetcode.com/problems/binary-tree-preorder-traversal)|||Medium|
 |145|[binary-tree-postorder-traversal](https://leetcode.com/problems/binary-tree-postorder-traversal)|||Hard|
@@ -324,7 +324,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |325|[maximum-size-subarray-sum-equals-k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k)|:lock:||Medium|
 |326|[power-of-three](https://leetcode.com/problems/power-of-three)|[Python](https://github.com/bonfy/leetcode/blob/master/326-power-of-three/power-of-three.py)|[:memo:](https://leetcode.com/articles/power-of-three/)|Easy|
 |327|[count-of-range-sum](https://leetcode.com/problems/count-of-range-sum)|||Hard|
-|328|[odd-even-linked-list](https://leetcode.com/problems/odd-even-linked-list)||[:memo:](https://leetcode.com/articles/odd-even-linked-list/)|Medium|
+|328|[odd-even-linked-list](https://leetcode.com/problems/odd-even-linked-list)|[Python](https://github.com/bonfy/leetcode/blob/master/328-odd-even-linked-list/odd-even-linked-list.py)|[:memo:](https://leetcode.com/articles/odd-even-linked-list/)|Medium|
 |329|[longest-increasing-path-in-a-matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix)||[:memo:](https://leetcode.com/articles/longest-increasing-path-matrix/)|Hard|
 |330|[patching-array](https://leetcode.com/problems/patching-array)||[:memo:](https://leetcode.com/articles/patching-array/)|Hard|
 |331|[verify-preorder-serialization-of-a-binary-tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree)|||Medium|
@@ -475,6 +475,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |490|[the-maze](https://leetcode.com/problems/the-maze)|:lock:||Medium|
 |491|[increasing-subsequences](https://leetcode.com/problems/increasing-subsequences)|||Medium|
 |492|[construct-the-rectangle](https://leetcode.com/problems/construct-the-rectangle)|||Easy|
+|493|[reverse-pairs](https://leetcode.com/problems/reverse-pairs)|||Hard|
 |494|[target-sum](https://leetcode.com/problems/target-sum)|||Medium|
 |495|[teemo-attacking](https://leetcode.com/problems/teemo-attacking)|||Medium|
 |496|[next-greater-element-i](https://leetcode.com/problems/next-greater-element-i)|||Easy|
@@ -484,7 +485,10 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |501|[find-mode-in-binary-search-tree](https://leetcode.com/problems/find-mode-in-binary-search-tree)|||Easy|
 |502|[ipo](https://leetcode.com/problems/ipo)|||Hard|
 |503|[next-greater-element-ii](https://leetcode.com/problems/next-greater-element-ii)|||Medium|
+|504|[base-7](https://leetcode.com/problems/base-7)|||Easy|
 |505|[the-maze-ii](https://leetcode.com/problems/the-maze-ii)|:lock:||Medium|
 |506|[relative-ranks](https://leetcode.com/problems/relative-ranks)|||Easy|
 |508|[most-frequent-subtree-sum](https://leetcode.com/problems/most-frequent-subtree-sum)|||Medium|
+|513|[find-bottom-left-tree-value](https://leetcode.com/problems/find-bottom-left-tree-value)|||Medium|
+|515|[find-largest-value-in-each-tree-row](https://leetcode.com/problems/find-largest-value-in-each-tree-row)|||Medium|
 |516|[longest-palindromic-subsequence](https://leetcode.com/problems/longest-palindromic-subsequence)|||Medium|
