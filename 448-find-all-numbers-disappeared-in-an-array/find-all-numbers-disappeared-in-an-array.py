@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# 给定一个list，有的元素出现两次，元素的取值范围是 1 ≤ a[i] ≤ n，有的没有出现，求没出现的元素
 # Given an array of integers where 1 ≤ a[i] ≤ n (n = size of array), some elements appear twice and others appear once.
 #
 # Find all the elements of [1, n] inclusive that do not appear in this array.

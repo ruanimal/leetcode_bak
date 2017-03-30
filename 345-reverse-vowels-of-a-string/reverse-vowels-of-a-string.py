@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# 反转字符串中元音的位置
 # Write a function that takes a string as input and reverse only the vowels of a string.
 #
 #
@@ -20,7 +20,7 @@
 
 class Solution(object):
     def reverseVowels(self, s):
-        """
+        """记录元英的位置，然后反转
         :type s: str
         :rtype: str
         """

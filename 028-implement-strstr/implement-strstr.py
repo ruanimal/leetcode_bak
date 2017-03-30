@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# 寻找子串的位置，这里用Python其实是取巧
 # Implement strStr().
 #
 #

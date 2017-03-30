@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# 反转单链表
 # Reverse a singly linked list.
 #
 # click to show more hints.
@@ -17,7 +17,7 @@
 
 class Solution(object):
     def reverseList(self, head):
-        """
+        """将所有节点插到头节点依次后面
         :type head: ListNode
         :rtype: ListNode
         """

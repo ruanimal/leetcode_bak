@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# 给定一个链表判断是否是回文
 # Given a singly linked list, determine if it is a palindrome.
 #
 # Follow up:
@@ -19,6 +19,7 @@ class Solution(object):
         :type head: ListNode
         :rtype: bool
         """
+        # 求长度
         count = 0
         p = head
         while p:
@@ -31,7 +32,7 @@ class Solution(object):
         half -= 1
         new_head = ListNode(None)
         new_head.next = head
-        while half > 0:
+        while half > 0:  # 将前半部分反转
             tmp = head.next
             head.next = head.next.next
             tmp.next = new_head.next
@@ -42,7 +43,7 @@ class Solution(object):
         p1 = p1.next
         p2 = p2.next
         half = count/2
-        while half > 0:
+        while half > 0:  # 逐一判断前后两部分是否相等
             half -= 1
             if p1.val == p2.val:
                 p1 = p1.next

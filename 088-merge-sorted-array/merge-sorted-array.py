@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# 给定两有序list，将nums2 merge 到nums1中
 # Given two sorted integer arrays nums1 and nums2, merge nums2 into nums1 as one sorted array.
 #
 #
@@ -28,9 +28,9 @@ class Solution(object):
                     nums1.pop()
                     m += 1
                     break
-                if m == len(nums1):
+                if m == len(nums1):  # nums2全部都被加到nums1中了
                     return
-            else:
+            else:  # nums2剩下的都比nums1的大
                 for k, num in enumerate(nums2[i:]):
                     nums1[m+k] = num
                 return

@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# 0, 1, 2, ..., n少了其中一个数，找到它
 # Given an array containing n distinct numbers taken from 0, 1, 2, ..., n, find the one that is missing from the array.
 #
 #

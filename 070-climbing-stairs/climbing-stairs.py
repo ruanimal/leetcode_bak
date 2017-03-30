@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# 爬楼梯问题，一次可以爬一级或者两级，问有多少种到顶的方式，用斐波那契数列来做
 # You are climbing a stair case. It takes n steps to reach to the top.
 #
 # Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?

@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# 判断一个数是否为丑数，丑数的因素只有2，3，5
 # Write a program to check whether a given number is an ugly number.
 #
 #
@@ -17,7 +17,7 @@
 
 class Solution(object):
     def isUgly(self, num):
-        """
+        """不停地整除直到值等于1
         :type num: int
         :rtype: bool
         """

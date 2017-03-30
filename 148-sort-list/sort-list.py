@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# 排序链表，nlog(n) 时间复杂度，常数空间复杂度
 # Sort a linked list in O(n log n) time using constant space complexity.
 
 
@@ -39,12 +39,10 @@ class Solution(object):
             return merge(left, right)
 
         def merge(left, right):
-            import pdb
             left_p = left
             right_p = right
             head = ListNode(None)
             head_p = head
-            # pdb.set_trace()
             while left_p and right_p:
                 if left_p.val < right_p.val:
                     head_p.next = left_p

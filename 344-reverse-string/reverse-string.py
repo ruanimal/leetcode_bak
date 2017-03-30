@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# 字符串反转
 # Write a function that takes a string as input and returns the string reversed.
 #
 #

@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# 两个链表相交，求相交开始的点
 # Write a program to find the node at which the intersection of two singly linked lists begins.
 #
 # For example, the following two linked lists: 
@@ -27,7 +27,7 @@
 
 class Solution(object):
     def getIntersectionNode(self, headA, headB):
-        """
+        """两个链表可能不同长度，调整到遍历的起点同一长度，开始遍历，第一个相等点就是
         :type head1, head1: ListNode
         :rtype: ListNode
         """
@@ -52,6 +52,7 @@ class Solution(object):
 
         pointer1 = headA
         pointer2 = headB
+        # 下面两个while就是将两个链表捋齐，其实可以用计算长度差值的做法
         while count_a > count_b:
             pointer1 = pointer1.next
             count_a -= 1

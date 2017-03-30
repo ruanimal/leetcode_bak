@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# 给定一个target和一个有序list，判断target是否在list中，是者返回index，否则返回应该在的位置
 # Given a sorted array and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
 #
 # You may assume no duplicates in the array.
@@ -25,7 +25,7 @@ class Solution(object):
             return nums.index(target)
         except ValueError:
             for i, ele in enumerate(nums):
-                if target < ele:
+                if target < ele:  # 找到收个大于target的位置
                     return i
-            else:
+            else:  # 如果找不到就在末尾
                 return i + 1

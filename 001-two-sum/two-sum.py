@@ -23,6 +23,7 @@ class Solution(object):
         """
         for i, ele in enumerate(nums):
             try:
+                # 排除i的值恰好等于target的一半的情况
                 if i == nums.index(target-ele): continue
                 return [i, nums.index(target-ele)]
             except ValueError:

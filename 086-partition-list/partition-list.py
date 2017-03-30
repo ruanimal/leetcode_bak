@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# 给定一个链表，将所有小于k的节点放到大于等于k的节点前面
 # Given a linked list and a value x, partition it such that all nodes less than x come before nodes greater than or equal to x.
 #
 #
@@ -20,7 +20,7 @@
 
 class Solution(object):
     def partition(self, head, x):
-        """
+        """将链表分成大于k和小于k的两个链表，然后将两链表连起来
         :type head: ListNode
         :type x: int
         :rtype: ListNode

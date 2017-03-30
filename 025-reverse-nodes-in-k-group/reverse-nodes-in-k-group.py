@@ -36,7 +36,7 @@ class Solution(object):
         :type head: ListNode
         :type k: int
         :rtype: ListNode
-        
+
         思路：每次反转k个链表，如果不满k个则说明到达末尾，对这一次重新反转使之保持原有顺序
         """
         if not head or k <= 1:
@@ -48,12 +48,12 @@ class Solution(object):
         pointer2 = new_head
         while pointer1:
             try:
-                for _ in range(k-1):
-                    tmp = pointer1.next
+                for _ in range(k-1):  # 将每个元素插到头结点的后面，实现反转
+                    tmp = pointer1.next  # 这两句将一个节点取出
                     pointer1.next = pointer1.next.next
-                    tmp.next = pointer2.next
+                    tmp.next = pointer2.next  # 这两句将这个个节点接到头节点后面
                     pointer2.next = tmp
-            except AttributeError:
+            except AttributeError:  # 到达链表末尾，将最后不足k的链表反转
                 pointer1 = pointer2.next
                 while pointer1.next:
                     tmp = pointer1.next
@@ -61,6 +61,6 @@ class Solution(object):
                     tmp.next = pointer2.next
                     pointer2.next = tmp
                 break
-            pointer2 = pointer1
+            pointer2 = pointer1  # 移动头指针到新的位置
             pointer1 = pointer1.next
         return new_head.next

@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# 给定一个链表，将n到m之间的节点反转
 # Reverse a linked list from position m to n. Do it in-place and in one-pass.
 #
 #
@@ -36,10 +36,10 @@ class Solution(object):
         new_head = ListNode(None)
         new_head.next = head
         pointer = new_head
-        for i in xrange(m-1):
+        for i in xrange(m-1):  # 将一个指针定位到m前的一个节点
             pointer = pointer.next
         pointer2 = pointer.next
-        for i in xrange(n-m):
+        for i in xrange(n-m):  # 将m到n之间的节点反转
             tmp = pointer2.next
             pointer2.next = pointer2.next.next
             tmp.next = pointer.next

@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# 以O(log (m+n)) 复杂度求两个已排序列表的中位数
 # There are two sorted arrays nums1 and nums2 of size m and n respectively.
 #
 # Find the median of the two sorted arrays. The overall run time complexity should be O(log (m+n)).
@@ -24,7 +24,7 @@
 
 class Solution(object):
     def findMedianSortedArrays(self, nums1, nums2):
-        """
+        """先将两个list merge到一起，然后算出中位数的位置
         :type nums1: List[int]
         :type nums2: List[int]
         :rtype: float
@@ -40,7 +40,7 @@ class Solution(object):
                 r += 1
         result += nums1[l:]
         result += nums2[r:]
-        if len(result)%2==1:
+        if len(result)%2==1:  # 合并后list长度为奇数
             return result[len(result)//2]
         else:
             return  (result[len(result)//2-1]+result[len(result)//2])/2.0

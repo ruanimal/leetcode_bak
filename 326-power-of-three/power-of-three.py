@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# 判断一个数是否是3的幂
 # Given an integer, write a function to determine if it is a power of three.
 #
 #
@@ -13,7 +13,7 @@
 
 class Solution(object):
     def isPowerOfThree(self, n):
-        """
+        """1162261467 是最大的3的幂（int）
         :type n: int
         :rtype: bool
         """

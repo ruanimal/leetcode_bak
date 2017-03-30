@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# 判断4的幂
 # Given an integer (signed 32 bits), write a function to check whether it is a power of 4.
 #
 # Example:
@@ -15,7 +15,7 @@
 
 class Solution(object):
     def isPowerOfFour(self, num):
-        """
+        """查表法
         :type num: int
         :rtype: bool
         """

@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# 删除链表的倒数第n个节点
 # Given a linked list, remove the nth node from the end of list and return its head.
 #
 #
@@ -26,7 +26,7 @@
 
 class Solution(object):
     def removeNthFromEnd(self, head, n):
-        """
+        """给链表加上头节点，用两个指针，一个先走n步，然后一起走，慢指针指向的节点就是需要删除的
         :type head: ListNode
         :type n: int
         :rtype: ListNode

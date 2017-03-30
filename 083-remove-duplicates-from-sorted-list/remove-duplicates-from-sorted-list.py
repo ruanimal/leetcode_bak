@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# 已排序链表，删除重复的节点，保留一个
 # Given a sorted linked list, delete all duplicates such that each element appear only once.
 #
 #

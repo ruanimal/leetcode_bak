@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# 使用插入排序，排序链表
 # Sort a linked list using insertion sort.
 
 

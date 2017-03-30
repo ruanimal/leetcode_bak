@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# 删除一个list中所有指定的元素
 # Given an array and a value, remove all instances of that value in place and return the new length.
 #
 #

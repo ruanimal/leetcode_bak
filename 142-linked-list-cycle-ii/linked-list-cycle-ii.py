@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# 给定一个链表，判断环开始的位置
 # Given a linked list, return the node where the cycle begins. If there is no cycle, return null.
 #
 #
@@ -20,7 +20,7 @@
 
 class Solution(object):
     def detectCycle(self, head):
-        """
+        """快慢指针，先找到环上的相遇点，'相遇点到环的起始点的距离'和'链表起点到环的起始点的距离'相等
         :type head: ListNode
         :rtype: ListNode
         """

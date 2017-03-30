@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# 判断一个数是否是2的次方
 # Given an integer, write a function to determine if it is a power of two.
 #
 #
@@ -9,7 +9,7 @@
 
 class Solution(object):
     def isPowerOfTwo(self, n):
-        """
+        """计算1第个数，次方数有且只有第一位为1；还有一种解法是把2的0到32次方都算出来，除此之外的都不是
         :type n: int
         :rtype: bool
         """

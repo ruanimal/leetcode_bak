@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# 给定一个数字，求对应行数的帕斯卡三角
 # Given numRows, generate the first numRows of Pascal's triangle.
 #
 #
@@ -24,8 +24,8 @@ class Solution(object):
         """
         if numRows < 1: return []
         if numRows == 1: return [[1],]
-        lst = [[1]*i for i in range(1, numRows+1)]
-        for i in range(2, numRows):
+        lst = [[1]*i for i in range(1, numRows+1)]  # 构造出所有值为1的帕斯卡三角
+        for i in range(2, numRows): # 从第3行开始计算内部对应的值
             for j in range(1, i):
-                lst[i][j] = lst[i-1][j-1] + lst[i-1][j]
+                lst[i][j] = lst[i-1][j-1] + lst[i-1][j]  # 这一行第j个数字的值等于上一行的第j-1加j
         return lst

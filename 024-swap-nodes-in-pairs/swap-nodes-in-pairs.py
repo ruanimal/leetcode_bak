@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# 将链表的相邻的两个节点对调
 # Given a linked list, swap every two adjacent nodes and return its head.
 #
 #
@@ -21,13 +21,13 @@
 
 class Solution(object):
     def swapPairs(self, head):
-        """
+        """此处采用直接对调值的做法，指针步长为2
         :type head: ListNode
         :rtype: ListNode
         """
         pointer = head
         while pointer and pointer.next is not None:
             pointer.val, pointer.next.val = pointer.next.val, pointer.val
-            pointer = pointer.next.next  
-        return head 
-            
+            pointer = pointer.next.next
+        return head
+

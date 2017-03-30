@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# 将链表的位置为偶数的节点放到奇数节点后面
 # Given a singly linked list, group all odd nodes together followed by the even nodes. Please note here we are talking about the node number and not the value in the nodes.
 #
 # You should try to do it in place. The program should run in O(1) space complexity and O(nodes) time complexity.
@@ -27,7 +27,7 @@
 
 class Solution(object):
     def oddEvenList(self, head):
-        """
+        """将偶数节点全部取出到一个新链表上，然后连到链表后面
         :type head: ListNode
         :rtype: ListNode
         """

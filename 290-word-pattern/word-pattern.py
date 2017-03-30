@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# 找出单词串和字符模版是否匹配
 # Given a pattern and a string str, find if str follows the same pattern.
 #  Here follow means a full match, such that there is a bijection between a letter in pattern and a non-empty word in str.
 #
@@ -29,10 +29,10 @@ class Solution(object):
         :rtype: bool
         """
         words = str.split()
+        if len(pattern) != len(words): return False
         if len(set(pattern)) != len(set(words)): return False
         p_len = len(pattern)
-        w_len = len(words)
-        if p_len < 1 or w_len <1 or p_len != w_len : return False
+        if p_len < 1: return False
         for i in range(p_len-1):
             for j in range(i+1, p_len):
                 if (pattern[j] == pattern[i] and words[j] != words[i]):

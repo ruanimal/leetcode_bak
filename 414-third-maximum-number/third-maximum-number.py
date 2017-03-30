@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# 求list中第3大的元素
 # Given a non-empty array of integers, return the third maximum number in this array. If it does not exist, return the maximum number. The time complexity must be in O(n).
 #
 # Example 1:
@@ -35,7 +35,7 @@
 
 class Solution(object):
     def thirdMax(self, nums):
-        """
+        """其实可用长度为3的最小堆来做，堆顶就是想要的元素
         :type nums: List[int]
         :rtype: int
         """

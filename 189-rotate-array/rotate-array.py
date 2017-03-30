@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# 给定数字k将list选择k位，原位操作
 # Rotate an array of n elements to the right by k steps.
 # For example, with n = 7 and k = 3, the array [1,2,3,4,5,6,7] is rotated to [5,6,7,1,2,3,4]. 
 #

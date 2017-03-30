@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# 将一个数的每一位上的数字加起来，直到只剩下个位数
 # Given a non-negative integer num, repeatedly add all its digits until the result has only one digit. 
 #
 #
@@ -35,7 +35,7 @@ class Solution(object):
             result = 0
             for i in str(num):
                 result += int(i)
-            if num > 10:
+            if num > 10:  # 一轮之后如果大于10，递归
                 return func(result)
             else:
                 return result

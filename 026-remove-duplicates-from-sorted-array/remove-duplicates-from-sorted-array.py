@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# 原位删除有序list的重复元素，返回新list的长度
 # Given a sorted array, remove the duplicates in place such that each element appear only once and return the new length.
 #
 #
@@ -23,13 +23,12 @@ class Solution(object):
         """
         len_nums = len(nums)
         if len_nums <= 1: return len_nums
-        to_del = []
-        i = 0
+        i = 0  # 指针
         while i < (len_nums -1):
             if nums[i] == nums[i+1]:
                 del nums[i]
             else:
                 i += 1
-            if i == len(nums) -1:
+            if i == len(nums) - 1:  # 删除元素后list变短，判断是否越界
                 break
         return len(nums)

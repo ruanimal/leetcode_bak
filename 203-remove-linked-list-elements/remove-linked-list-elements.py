@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-
+# 从链表中移除所以给定值
 # Remove all elements from a linked list of integers that have value val.
 #
 # Example
