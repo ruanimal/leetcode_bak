@@ -38,5 +38,3 @@ class Solution(object):
                 if (pattern[j] == pattern[i] and words[j] != words[i]):
                     return False
         return True
-            
-            
